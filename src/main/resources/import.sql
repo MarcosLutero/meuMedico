@@ -1,0 +1,10 @@
+INSERT INTO tb_usuario (matricula, nome, email, senha, tipo, created_at, updated_at) VALUES ('USR001', 'Lucas Almeida', 'lucas@exemplo.com', 'senha123', 'PACIENTE', NOW(), NOW());
+INSERT INTO tb_usuario (matricula, nome, email, senha, tipo, created_at, updated_at) VALUES ('USR002', 'Juliana Souza', 'juliana@exemplo.com', 'senha123', 'ADMIN', NOW(), NOW());
+INSERT INTO tb_usuario (matricula, nome, email, senha, tipo, created_at, updated_at) VALUES ('USR003', 'Pedro Santos', 'pedro@exemplo.com', 'senha123', 'PACIENTE', NOW(), NOW());
+INSERT INTO tb_usuario (matricula, nome, email, senha, tipo, created_at, updated_at) VALUES ('USR004', 'Camila Rocha', 'camila@exemplo.com', 'senha123', 'MEDICO', NOW(), NOW());
+INSERT INTO tb_usuario (matricula, nome, email, senha, tipo, created_at, updated_at) VALUES ('USR005', 'Rafael Martins', 'rafael@exemplo.com', 'senha123', 'ADMIN', NOW(), NOW());
+INSERT INTO tb_usuario (matricula, nome, email, senha, tipo, created_at, updated_at) VALUES ('USR006', 'Bianca Costa', 'bianca@exemplo.com', 'senha123', 'MEDICO', NOW(), NOW());
+INSERT INTO tb_usuario (matricula, nome, email, senha, tipo, created_at, updated_at) VALUES ('USR007', 'Fernando Lima', 'fernando@exemplo.com', 'senha123', 'RECEPCIONISTA', NOW(), NOW());
+INSERT INTO tb_usuario (matricula, nome, email, senha, tipo, created_at, updated_at) VALUES ('USR008', 'Isabela Ramos', 'isabela@exemplo.com', 'senha123', 'ADMIN', NOW(), NOW());
+INSERT INTO tb_usuario (matricula, nome, email, senha, tipo, created_at, updated_at) VALUES ('USR009', 'Leonardo Nunes', 'leonardo@exemplo.com', 'senha123', 'RECEPCIONISTA', NOW(), NOW());
+INSERT INTO tb_usuario (matricula, nome, email, senha, tipo, created_at, updated_at) VALUES ('USR010', 'Mariana Torres', 'mariana@exemplo.com', 'senha123', 'RECEPCIONISTA', NOW(), NOW());
