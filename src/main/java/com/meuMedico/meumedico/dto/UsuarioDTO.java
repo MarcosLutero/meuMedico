@@ -18,8 +18,12 @@ public class UsuarioDTO {
 	private String email;
 	private String senha;
 	private TipoUsuario tipo;
-	private Date createdAt;
-	private Date updatedAt;
+
+	
+	
+	public UsuarioDTO() {
+
+	}
 	
 	public UsuarioDTO(Usuario entity) {
 		BeanUtils.copyProperties(entity, this);
@@ -72,23 +76,6 @@ public class UsuarioDTO {
 	public void setTipo(TipoUsuario tipo) {
 		this.tipo = tipo;
 	}
-
-	public Date getCreatedAt() {
-		return createdAt;
-	}
-
-	public void setCreatedAt(Date createdAt) {
-		this.createdAt = createdAt;
-	}
-
-	public Date getUpdatedAt() {
-		return updatedAt;
-	}
-
-	public void setUpdatedAt(Date updatedAt) {
-		this.updatedAt = updatedAt;
-	}
-	
 	
 
 }

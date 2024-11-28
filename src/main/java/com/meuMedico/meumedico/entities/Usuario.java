@@ -3,6 +3,9 @@ package com.meuMedico.meumedico.entities;
 import java.util.Date;
 import java.util.Objects;
 
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
+
 import com.meuMedico.meumedico.enums.TipoUsuario;
 
 import jakarta.persistence.Column;
@@ -36,9 +39,12 @@ public class Usuario {
 	@Column(nullable = false)
 	private TipoUsuario tipo;
 
+	@CreationTimestamp
 	@Temporal(TemporalType.TIMESTAMP)
 	@Column(name = "created_at", updatable = false)
 	private Date createdAt;
+	
+	@UpdateTimestamp
 	@Temporal(TemporalType.TIMESTAMP)
 	@Column(name = "updated_at", updatable = false)
 	private Date updatedAt;
